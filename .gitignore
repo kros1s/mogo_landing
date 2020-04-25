@@ -1,0 +1,4 @@
+# prepros configs
+prepros.config
+.sass-cache/
+template/
