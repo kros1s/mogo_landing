@@ -1,6 +1,4 @@
 # ignore prepros configs
 prepros.config
 .sass-cache/
-
-# ignore PSD template
-template/
+css/main-dist.css
