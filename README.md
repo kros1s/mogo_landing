@@ -11,7 +11,7 @@
 
 ## deploy
 
-**Mogo_landing** - размещен на моей странице github pages - [lapard1n](lapard1n.github.io), либо, во всяком случае, будет скоро туда добавлен.
+**Mogo_landing** - размещен на моей странице github pages - [lapard1n](https://lapard1n.github.io/), либо, во всяком случае, будет скоро туда добавлен.
 
 ## warning
 
