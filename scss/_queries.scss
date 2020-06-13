@@ -32,6 +32,13 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 768px) {
+/* HEADER MENU */
+    .menu__links {
+        display: none;
+    }
+    .menu__burger {
+        display: block;
+    }
 /* MAIN ABOUT US */
     .about-us {
         height: auto;
@@ -69,6 +76,9 @@
 /* MAIN FEEDBACK */
     .statistick-row, .feedback, .sponsors, .map {
         height: 20vh;
+    }
+    .feedback {
+        height: 25vh;
     }
 /* MAIN PEOPLE */
     .people {
