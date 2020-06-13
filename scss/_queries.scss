@@ -1,0 +1,108 @@
+// MIN and MAX MEDIA QUERIES
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 1200px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 992px) {
+/* HEADER BOTTOM */
+    .header-bottom {
+        display: none;
+    }
+/* FOOTER */
+    .footer-container {
+        height: 50vh;
+        min-height: 500px;
+    }
+/* MAIN PEOPLE */
+    .people {
+        min-height: 700px;
+    }
+/* FOOTER LINKS */
+    .links__input .mail {
+        width: 50%;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 768px) {
+/* MAIN ABOUT US */
+    .about-us {
+        height: auto;
+    }
+/* MAIN SERVICES */
+    .services {
+        height: auto;
+    }
+/* MAIN DESIGN */
+    .design {
+        height: auto;
+    }
+    .design__obj {
+        width: 100%;
+        height: 60vh;
+        position: relative;
+    }
+/* WHAT WE DO ACCORDION */
+    .waht-we-do__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .waht-we-do__block {
+        width: 250px;
+        height: 250px;
+        overflow-x: none;
+        margin: 0;
+        border-radius: 50%;
+    }
+    .accordion {
+        margin-top: 30px;
+        width: 100%;
+        max-width: 600px;
+    }
+/* MAIN FEEDBACK */
+    .statistick-row, .feedback, .sponsors, .map {
+        height: 20vh;
+    }
+/* MAIN PEOPLE */
+    .people {
+        height: auto;
+    }
+/* OUR WORK GALLERY */
+    .galgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .galgrid__pos {
+        &.pos-1 {
+            grid-area: 1/1/2/2;
+        }
+        &.pos-2 {
+            grid-area: 1/2/2/3;
+        }
+        &.pos-3 {
+            grid-area: 3/1/5/2;
+        }
+        &.pos-4 {
+            grid-area: 3/2/4/3;
+        }
+        &.pos-5 {
+            grid-area: 2/1/3/2;
+        }
+        &.pos-6 {
+            grid-area: 2/2/3/3;
+        }
+        &.pos-7 {
+            grid-area: 4/2/5/3;
+        }
+    }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) {
+
+}

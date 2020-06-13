@@ -3,70 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoGo</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/go.svg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/eeacb9ff0f.js" crossorigin="anonymous"></script>
-    <title>MoGo</title>
 </head>
 <body>
     <header class="header-container">
-        <!--HEADER MENU-->
-        <nav class="header-menu">
-            <h1 class="header-menu__logo">
-                <a href="index.html">MoGo</a>
-            </h1>
+        <!-- HEADER MENU -->
+        <nav class="menu">
+            <div class="menu-case">
+                <h1 class="menu__logo">
+                    <a href="index.html">MoGo</a>
+                </h1>
 
-            <div class="header-menu__links">
-                <a class="header-menu__element" href="#">About</a>
-                <a class="header-menu__element" href="#">Service</a>
-                <a class="header-menu__element" href="#">Work</a>
-                <a class="header-menu__element" href="#">Blog</a>
-                <a class="header-menu__element" href="#">Contact</a>
-                <a class="header-menu__element" href="#">
-                    <img src="img/header/korzina.png" alt="shop">
-                </a>
-                <a class="header-menu__element" href="#">
-                    <img src="img/header/lupa.png" alt="search">
-                </a>
+                <div class="menu__links">
+                    <a class="menu__element" href="#about">About</a>
+                    <a class="menu__element" href="#service">Service</a>
+                    <a class="menu__element" href="#work">Work</a>
+                    <a class="menu__element" href="#blog">Blog</a>
+                    <a class="menu__element" href="#contact">Contact</a>
+                    <a class="menu__element" href="">
+                        <img src="img/header/korzina.png" alt="shop">
+                    </a>
+                    <a class="menu__element" href="">
+                        <img src="img/header/lupa.png" alt="search">
+                    </a>
+                </div>
+
+                <div class="menu__burder">
+                    <input id="menu__toggle" type="checkbox">
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+
+                    <div class="menu__box">
+                        <a class="menu__element" href="#about">About</a>
+                        <a class="menu__element" href="#service">Service</a>
+                        <a class="menu__element" href="#work">Work</a>
+                        <a class="menu__element" href="#blog">Blog</a>
+                        <a class="menu__element" href="#contact">Contact</a>
+                        <a class="menu__element" href="">
+                            <img src="img/header/korzina.png" alt="shop">
+                        </a>
+                        <a class="menu__element" href="">
+                            <img src="img/header/lupa.png" alt="search">
+                        </a>
+                    </div>
+                </div>
             </div>
         </nav>
-        <!--HEADER TITLE-->
-        <section class="header-title">
-            <div class="header-title__sub">
-                <h2>Creative Template</h2>
-            </div>
-            <div class="header-title__sup">
-                <h1>WELCOME</h1>
-                <h1>TO MOGO</h1>
-            </div>
-        </section>
-        <!--HEADER BUTTON-->
-        <section class="header-button">
-            <div class="header-button-container">
-                <a class="header__button-container" href="#">
-                    <input type="button" value="LEARN MORE">
-                </a>
-            </div>
-        </section>
-        <!--HEADER BOTTOM-->
+        <!-- HEADER MAIN -->
+        <article class="header-main">
+            <!-- HEADER TITLE -->
+            <section class="header-title">
+                <div class="header-title__sub">
+                    <h2>Creative Template</h2>
+                </div>
+                <div class="header-title__sup">
+                    <h1>WELCOME</h1>
+                    <h1>TO MOGO</h1>
+                </div>
+            </section>
+            <!-- HEADER BUTTON -->
+            <section class="header-button">
+                <div class="header-button-container">
+                    <a class="header__button-container" href="#">
+                        <input type="button" value="LEARN MORE">
+                    </a>
+                </div>
+            </section>
+        </article>
+        <!-- HEADER BOTTOM -->
         <section class="header-bottom">
             <div class="header-bottom__block">
-                <span class="header-line__block_bold">01</span>INTRO
+                <span class="_bold">01</span>quality
             </div>
             <div class="header-bottom__block">
-                <span class="header-line__block_bold">02</span>WORK
+                <span class="_bold">02</span>speed
             </div>
             <div class="header-bottom__block">
-                <span class="header-line__block_bold">03</span>ABOUT
+                <span class="_bold">03</span>adaptability
             </div>
             <div class="header-bottom__block">
-                <span class="header-line__block_bold">04</span>CONTACTS
+                <span class="_bold">04</span>performance
             </div>
         </section>
     </header>
     <main class="main-container">
         <!-- MAIN ABOUT US -->
-        <section class="about-us">
+        <section class="about-us" id="about">
             <!-- ABOUT US TITLE -->
             <div class="title">
                 <div class="title__sub">
@@ -84,28 +110,28 @@
                 <div class="gallery__block">
                     <div class="gallery__img">
                         <img src="img/main/gallery/left.png">
-                    </div>
-                    <div class="gallery__logo">
-                        <img src="img/main/gallery/users.png">
-                        <h2>SUPER TEAM</h2>
+                        <div class="gallery__logo">
+                            <img src="img/main/gallery/users.png">
+                            <h2>SUPER TEAM</h2>
+                        </div>
                     </div>
                 </div>
                 <div class="gallery__block">
                     <div class="gallery__img">
                         <img src="img/main/gallery/center.png">
-                    </div>
-                    <div class="gallery__logo">
-                        <img src="img/main/gallery/users.png">
-                        <h2>SUPER TEAM</h2>
+                        <div class="gallery__logo">
+                            <img src="img/main/gallery/users.png">
+                            <h2>SUPER TEAM</h2>
+                        </div>
                     </div>
                 </div>
                 <div class="gallery__block">
                     <div class="gallery__img">
                         <img src="img/main/gallery/right.png">
-                    </div>
-                    <div class="gallery__logo">
-                        <img src="img/main/gallery/users.png">
-                        <h2>SUPER TEAM</h2>
+                        <div class="gallery__logo">
+                            <img src="img/main/gallery/users.png">
+                            <h2>SUPER TEAM</h2>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -136,7 +162,7 @@
             </div>
         </section>
         <!-- MAIN SERVICES -->
-        <section class="services">
+        <section class="services" id="service">
             <!-- SERVICES TITLE -->
             <div class="title">
                 <div class="title__sub">
@@ -221,8 +247,12 @@
             </div>
             <!-- DESIGN OBJECTS -->
             <div class="design__obj">
-                <img class="design__back" src="img/main/design/back.png">
-                <img class="design__front" src="img/main/design/front.png">
+                <div class="design__back">
+                    <img src="img/main/design/back.png">
+                    <div class="design__front">
+                        <img  src="img/main/design/front.png">
+                    </div>
+                </div>
             </div>
         </section>
         <!-- MAIN WHAT WE DO -->
@@ -242,45 +272,45 @@
             <!-- WHAT WE DO ACCORDION -->
             <div class="waht-we-do__content">
                 <div class="waht-we-do__block">
-                    <img class="waht-we-do__img" src="img/main/whatwedo/left_block.png">
+                    <img src="img/main/whatwedo/left_block.png">
                 </div>
                 <div class="accordion">
-                    <a class="accordion__elemnt">
-                        <div class="accordion__header active">
+                    <div class="accordion__elemnt" id="first">
+                        <a class="accordion__header" href="#first">
                             <img class="accordion__logo" src="img/main/whatwedo/photography.png">
                             <div class="accordion__title">
                                 <h2>PHOTOGRAPHY</h2>
                             </div>
-                            <img class="accordion__arrow active" src="img/main/whatwedo/arrow.png">
-                        </div>
-                        <div class="accordion__main active">
-                            <i>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos. Soluta odio vel officiis rem, qui dicta eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos. Soluta odio vel officiis rem, qui dicta eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos.
-                            </i>
-                        </div>
-                    </a>
-                    <div class="accordion__elemnt">
-                        <div class="accordion__header">
-                            <img class="accordion__logo" src="img/main/whatwedo/creativity.png">
-                            <div class="accordion__title">
-                                <h2>CREATIVITY</h2>
-                            </div>
                             <img class="accordion__arrow" src="img/main/whatwedo/arrow.png">
-                        </div>
+                        </a>
                         <div class="accordion__main">
                             <i>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos. Soluta odio vel officiis rem, qui dicta eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos. Soluta odio vel officiis rem, qui dicta eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos.
                             </i>
                         </div>
                     </div>
-                    <div class="accordion__elemnt">
-                        <div class="accordion__header">
+                    <div class="accordion__elemnt" id="second">
+                        <a class="accordion__header" href="#second">
+                            <img class="accordion__logo" src="img/main/whatwedo/creativity.png">
+                            <div class="accordion__title">
+                                <h2>CREATIVITY</h2>
+                            </div>
+                            <img class="accordion__arrow" src="img/main/whatwedo/arrow.png">
+                        </a>
+                        <div class="accordion__main">
+                            <i>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos. Soluta odio vel officiis rem, qui dicta eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos. Soluta odio vel officiis rem, qui dicta eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos.
+                            </i>
+                        </div>
+                    </div>
+                    <div class="accordion__elemnt" id="fird">
+                        <a class="accordion__header" href="#fird">
                             <img class="accordion__logo" src="img/main/whatwedo/web_design.png">
                             <div class="accordion__title">
                                 <h2>WEB DESIGN</h2>
                             </div>
                             <img class="accordion__arrow" src="img/main/whatwedo/arrow.png">
-                        </div>
+                        </a>
                         <div class="accordion__main">
                             <i>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos. Soluta odio vel officiis rem, qui dicta eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos. Soluta odio vel officiis rem, qui dicta eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat molestiae unde sed dolore reprehenderit dolorum sint minus, necessitatibus dolor assumenda inventore quos.
@@ -309,7 +339,7 @@
             </div>
         </section>
         <!-- MAIN OUR TEAM -->
-        <section class="our-team">
+        <section class="our-team" id="contact">
             <!-- OUR TEAM TITLE -->
             <div class="title">
                 <div class="title__sub">
@@ -324,85 +354,108 @@
             </div>
             <!-- OUR TEAM GALLERY -->
             <div class="gallery">
-                <div class="gallery__block bg">
-                    <div class="gallery__img">
-                        <img src="img/main/ourteam/left.png">
+                <div class="gallery-case">
+                    <div class="gallery__block">
+                        <div class="gallery__img">
+                            <img src="img/main/ourteam/left.png">
+                            <div class="gallery__net">
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </div>
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="gallery__net">
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-facebook-f"></i>
-                        </div>
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-twitter"></i>
-                        </div>
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-pinterest-p"></i>
-                        </div>
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-instagram"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery__block bg">
-                    <div class="gallery__img">
-                        <img src="img/main/ourteam/center.png">
-                    </div>
-                    <div class="gallery__net">
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-facebook-f"></i>
-                        </div>
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-twitter"></i>
-                        </div>
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-pinterest-p"></i>
-                        </div>
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-instagram"></i>
-                        </div>
+                    <div class="gallery__name">
+                        <h2>Matthew Dix</h2>
+                        <i>Graphic Design</i>
                     </div>
                 </div>
-                <div class="gallery__block bg">
-                    <div class="gallery__img">
-                        <img src="img/main/ourteam/right.png">
+                <div class="gallery-case">
+                    <div class="gallery__block">
+                        <div class="gallery__img">
+                            <img src="img/main/ourteam/center.png">
+                            <div class="gallery__net">
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </div>
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="gallery__net">
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-facebook-f"></i>
-                        </div>
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-twitter"></i>
-                        </div>
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-pinterest-p"></i>
-                        </div>
-                        <div class="gallery__net_fab">
-                            <i class="fab fa-instagram"></i>
-                        </div>
+                    <div class="gallery__name">
+                        <h2>Christopher Campbell</h2>
+                        <i>Branding/UX design</i>
                     </div>
                 </div>
-            </div>
-            <div class="gallery name">
-                <div class="gallery__name">
-                    <h2>Matthew Dix</h2>
-                    <i>Graphic Design</i>
-                </div>
-                <div class="gallery__name">
-                    <h2>Christopher Campbell</h2>
-                    <i>Branding/UX design</i>
-                </div>
-                <div class="gallery__name">
-                    <h2>Michael Fertig</h2>
-                    <i>Developer</i>
+                <div class="gallery-case">
+                    <div class="gallery__block">
+                        <div class="gallery__img">
+                            <img src="img/main/ourteam/right.png">
+                            <div class="gallery__net">
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </div>
+                                <div class="gallery__net_fab">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__name">
+                        <h2>Michael Fertig</h2>
+                        <i>Developer</i>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- MAIN SPONSORS -->
         <section class="sponsors">
-            <img src="img/main/ourteam/rtg.png">
+            <div class="sponsors-case">
+                <div class="sponsors__item">
+                    <img src="img/main/ourteam/sponsors-01.png">
+                </div>
+                <div class="sponsors__item">
+                    <img src="img/main/ourteam/sponsors-02.png">
+                </div>
+                <div class="sponsors__item">
+                    <img src="img/main/ourteam/sponsors-03.png">
+                </div>
+                <div class="sponsors__item">
+                    <img src="img/main/ourteam/sponsors-04.png">
+                </div>
+                <div class="sponsors__item">
+                    <img src="img/main/ourteam/sponsors-05.png">
+                </div>
+                <div class="sponsors__item">
+                    <img src="img/main/ourteam/sponsors-06.png">
+                </div>
+            </div>
         </section>
         <!-- MAIN OUR WORK -->
-        <section class="our-work">
+        <section class="our-work" id="work">
             <!-- OUR WORK TITLE -->
             <div class="title">
                 <div class="title__sub">
@@ -418,7 +471,7 @@
             <!-- OUR WORK GALLERY -->
             <div class="galgrid">
                 <div class="galgrid__pos pos-1">
-                    <img class="pos" src="img/main/ourwork/1_1.png">
+                    <img class="_img" src="img/main/ourwork/1_1.png">
                     <div class="galgrid__logo">
                         <img src="img/main/ourwork/hover.png">
                         <h2>creatively designed</h2>
@@ -426,7 +479,7 @@
                     </div>
                 </div>
                 <div class="galgrid__pos pos-2">
-                    <img class="pos" src="img/main/ourwork/1_2.png">
+                    <img class="_img" src="img/main/ourwork/1_2.png">
                     <div class="galgrid__logo">
                         <img src="img/main/ourwork/hover.png">
                         <h2>creatively designed</h2>
@@ -434,7 +487,7 @@
                     </div>
                 </div>
                 <div class="galgrid__pos pos-3">
-                    <img class="pos" src="img/main/ourwork/12_3.png">
+                    <img class="_img" src="img/main/ourwork/12_3.png">
                     <div class="galgrid__logo">
                         <img src="img/main/ourwork/hover.png">
                         <h2>creatively designed</h2>
@@ -442,7 +495,7 @@
                     </div>
                 </div>
                 <div class="galgrid__pos pos-4">
-                    <img class="pos" src="img/main/ourwork/1_4.png">
+                    <img class="_img" src="img/main/ourwork/1_4.png">
                     <div class="galgrid__logo">
                         <img src="img/main/ourwork/hover.png">
                         <h2>creatively designed</h2>
@@ -450,7 +503,7 @@
                     </div>
                 </div>
                 <div class="galgrid__pos pos-5">
-                    <img class="pos" src="img/main/ourwork/2_1.png">
+                    <img class="_img" src="img/main/ourwork/2_1.png">
                     <div class="galgrid__logo">
                         <img src="img/main/ourwork/hover.png">
                         <h2>creatively designed</h2>
@@ -458,7 +511,7 @@
                     </div>
                 </div>
                 <div class="galgrid__pos pos-6">
-                    <img class="pos" src="img/main/ourwork/2_2.png">
+                    <img class="_img" src="img/main/ourwork/2_2.png">
                     <div class="galgrid__logo">
                         <img src="img/main/ourwork/hover.png">
                         <h2>creatively designed</h2>
@@ -466,7 +519,7 @@
                     </div>
                 </div>
                 <div class="galgrid__pos pos-7">
-                    <img class="pos" src="img/main/ourwork/2_4.png">
+                    <img class="_img" src="img/main/ourwork/2_4.png">
                     <div class="galgrid__logo">
                         <img src="img/main/ourwork/hover.png">
                         <h2>creatively designed</h2>
@@ -649,7 +702,7 @@
         </section>
     </main>
     <footer class="footer-container">
-        <article class="footer-keys">
+        <article class="footer-keys" id="blog">
             <!-- FOOTER LINKS -->
             <section class="links">
                 <div class="links__logo">
@@ -685,7 +738,9 @@
                     BLOGS
                 </div>
                 <div class="blogs__item">
-                    <img class="blogs__img" src="img/footer/blogs-01.png">
+                    <div class="blogs__img">
+                        <img src="img/footer/blogs-01.png">
+                    </div>
                     <div class="blogs__text">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur.
@@ -696,7 +751,9 @@
                     </div>
                 </div>
                 <div class="blogs__item">
-                    <img class="blogs__img" src="img/footer/blogs-02.png">
+                    <div class="blogs__img">
+                        <img src="img/footer/blogs-02.png">
+                    </div>
                     <div class="blogs__text">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur.
@@ -707,7 +764,9 @@
                     </div>
                 </div>
                 <div class="blogs__item">
-                    <img class="blogs__img" src="img/footer/blogs-03.png">
+                    <div class="blogs__img">
+                        <img src="img/footer/blogs-03.png">
+                    </div>
                     <div class="blogs__text">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur.
