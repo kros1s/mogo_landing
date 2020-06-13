@@ -574,20 +574,28 @@
     width: 50%;
 }
 
-.accordion__elemnt {
+.accordion__element {
+    position: relative;
     border: 1px solid #e5e5e5;
-    &:target {
-        .accordion__main {
+    input {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        visibility: hidden;
+    }
+    input:checked {
+        & ~ .accordion__main {
             max-height: 10em;
             overflow-y: scroll;
             padding: 15px;
         }
-        .accordion__header {
+        & ~ .accordion__header {
             color: #ffffff;
             background-color: #333333;
-        }
-        .accordion__arrow {
-            transform: rotate(180deg);
+            .accordion__arrow {
+                transform: rotate(180deg);
+            }
         }
     }
 }
@@ -600,6 +608,7 @@
     text-decoration: none;
     background-color: #ffffff;
     color: #333333;
+    cursor: pointer;
     transition: all 0.2s linear;
 }
 
@@ -626,18 +635,8 @@
     transition: all 0.2s linear;
 }
 
-.item {
-    border-top: 1px solid #0984e3;
-    overflow: hidden;
-    a {
-        font-size: 17px;
-    }
-    &:first-child {
-        border: none;
-    }
-    &:target .smenu{
-        max-height: 10em;
-    }
+.accordion__arrow {
+    transition: all 0.2s linear;
 }
 
 /* MAIN FEEDBACK */
